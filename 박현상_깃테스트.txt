@@ -9,8 +9,5 @@ Push : 깃허브에 변경된 내역들을 업로드
 
 Fetch : 깃허브에 변경사항이 있는지 확인
 
-<<<<<<< Updated upstream
-추가???
-=======
 Pull : 깃허브의 변경사항을 PC에 다운로드
->>>>>>> Stashed changes
+
