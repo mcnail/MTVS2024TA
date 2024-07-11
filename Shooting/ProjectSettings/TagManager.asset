@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - deadzoneTag
+  - EnemySpawn
   layers:
   - Default
   - TransparentFX
