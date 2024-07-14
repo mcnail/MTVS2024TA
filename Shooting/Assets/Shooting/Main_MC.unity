@@ -885,39 +885,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fb14c5ea13e9b542be38488d260669b, type: 3}
---- !u!1 &617656963 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4712088590389855400, guid: 9ccd7d95d6344c742b5274e576c80d0a,
-    type: 3}
-  m_PrefabInstance: {fileID: 6234952655449018246}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &617656970
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617656963}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!4 &736899071 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1115606666379390707, guid: 8fb14c5ea13e9b542be38488d260669b,
@@ -2807,39 +2774,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3313350883678830522, guid: 9ccd7d95d6344c742b5274e576c80d0a,
-        type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4712088590389855400, guid: 9ccd7d95d6344c742b5274e576c80d0a,
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4712088590389855400, guid: 9ccd7d95d6344c742b5274e576c80d0a,
-        type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4712088590389855400, guid: 9ccd7d95d6344c742b5274e576c80d0a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8481701092579364106, guid: 9ccd7d95d6344c742b5274e576c80d0a,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speedObj","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hp","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hpUI","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"restartBtn","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8481701092579364106, guid: 9ccd7d95d6344c742b5274e576c80d0a,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8481701092579364106, guid: 9ccd7d95d6344c742b5274e576c80d0a,
         type: 3}
@@ -2851,24 +2789,10 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
       objectReference: {fileID: 2031928196}
-    - target: {fileID: 8701342455402496915, guid: 9ccd7d95d6344c742b5274e576c80d0a,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8701342455402496915, guid: 9ccd7d95d6344c742b5274e576c80d0a,
-        type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 5ddd00c10b6de8c4693df92ab8138bb6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4712088590389855400, guid: 9ccd7d95d6344c742b5274e576c80d0a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 617656970}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ccd7d95d6344c742b5274e576c80d0a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
