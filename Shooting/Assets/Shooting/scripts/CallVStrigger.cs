@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using Unity.VisualScripting; //비주얼 스크립트 네임스페이스 추가
 using UnityEngine;
 
 public class CallVStrigger : MonoBehaviour
@@ -16,7 +16,7 @@ public class CallVStrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //비주얼 스크립트 컴포넌트를 담는다
+        //내가 가지고 있는 비주얼 스크립트 컴포넌트를 담는다
         machine = GetComponent<ScriptMachine>();
         //작성된 스크립트의 유니티 이벤트를 실행한다. 커스텀이벤트는 C#에서 실행시킬 수 없다.
         machine.TriggerUnityEvent("CallToCS");
@@ -32,6 +32,6 @@ public class CallVStrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        a = Variables.Object(vsComp).Get<float>("speedObj");
     }
 }
