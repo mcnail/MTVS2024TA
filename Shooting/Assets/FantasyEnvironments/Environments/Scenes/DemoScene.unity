@@ -15,19 +15,19 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 1
-  m_FogColor: {r: 0.2663314, g: 0.88832116, b: 0.990566, a: 1}
+  m_Fog: 0
+  m_FogColor: {r: 0.27754536, g: 0.54981714, b: 0.5943396, a: 1}
   m_FogMode: 2
   m_FogDensity: 0.003
   m_LinearFogStart: 15
   m_LinearFogEnd: 350
-  m_AmbientSkyColor: {r: 1.5824305, g: 2.322675, b: 3.8560374, a: 1}
-  m_AmbientEquatorColor: {r: 0.05951124, g: 0.61720675, b: 0.69387203, a: 1}
-  m_AmbientGroundColor: {r: 0.056128494, g: 0.17144115, b: 0.10224175, a: 1}
+  m_AmbientSkyColor: {r: 0.41788515, g: 0.1470273, b: 0.039546248, a: 1}
+  m_AmbientEquatorColor: {r: 0.49693304, g: 0.16202943, b: 0.12213881, a: 1}
+  m_AmbientGroundColor: {r: 0.011612245, g: 0.0047769533, b: 0.0056053917, a: 1}
   m_AmbientIntensity: 1.18
   m_AmbientMode: 1
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: baef7505b9e48404cb74585601f49ff9, type: 2}
+  m_SubtractiveShadowColor: {r: 0.735849, g: 0.64243203, b: 0.5241189, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 2441c79940171dc43b33badf9fe97828, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -17989,8 +17989,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.1
+  m_Color: {r: 0.754717, g: 0.5959465, b: 0.5660378, a: 1}
+  m_Intensity: 0.44
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -18048,13 +18048,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003931975}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.15593722, y: 0.48974088, z: -0.08951628, w: 0.85312617}
+  m_LocalPosition: {x: 534, y: 24.4, z: 359.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 20.717, y: 59.716, z: 0}
 --- !u!114 &2003931978
 MonoBehaviour:
   m_ObjectHideFlags: 0
