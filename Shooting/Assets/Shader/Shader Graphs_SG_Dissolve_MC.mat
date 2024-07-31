@@ -40,11 +40,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _DissolveEdge: 0.02
-    - _DissolveVal: 0.363
+    - _DissolveVal: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Speed: 0.1
     m_Colors:
-    - _EmissiveColor: {r: 0.08864214, g: 2.6947212, b: 4.2370944, a: 0}
+    - _EmissiveColor: {r: 0.15433496, g: 4.691783, b: 7.377211, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8864622298405229787
