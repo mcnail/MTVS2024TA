@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_SG_Dissolve_MC
-  m_Shader: {fileID: -6465566751694194690, guid: 3f65558491be1484590a48ad1a8d9004,
+  m_Name: Shader Graphs_SG_DissolvePos_MC
+  m_Shader: {fileID: -6465566751694194690, guid: 07abb87375feeb248b3e93f5c41a1d8e,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -19,8 +19,7 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -39,15 +38,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveEdge: 0.06
-    - _DissolveVal: 0.321
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 0.1
-    m_Colors:
-    - _EmissiveColor: {r: 0.15433496, g: 4.691783, b: 7.377211, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &8864622298405229787
+--- !u!114 &959239803280128281
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,4 +54,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 7
