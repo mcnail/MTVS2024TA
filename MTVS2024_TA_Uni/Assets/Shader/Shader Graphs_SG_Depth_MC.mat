@@ -51,7 +51,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Depth: 11.53
+    - _Distance: 1.15
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    m_Colors:
+    - _FadeEdge: {r: 1, g: 1, b: 1, a: 0}
+    - _deepWater: {r: 0, g: 0.20672666, b: 0.5283019, a: 0}
+    - _waterEdge: {r: 0.37201852, g: 0.8301887, b: 0.8217041, a: 0}
   m_BuildTextureStacks: []
