@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9174957004586863583
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,14 +20,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_SG_EnegyShield_MC
-  m_Shader: {fileID: -6465566751694194690, guid: c195f6df9647d2f41930b109f415b75d,
+  m_Name: Shader Graphs_SG_Silhouette_MC
+  m_Shader: {fileID: -6465566751694194690, guid: 688cde7ec7fc2384e971a99d4eb6c76e,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -38,29 +51,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Freq: 1
-    - _Frequency: 3
-    - _FresnelPow: 3.77
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _dist: 0.74
-    - _lineWidth: 5.84
-    - _opasity: 0.2
-    - _speed: 1
-    m_Colors:
-    - _BaseColor: {r: 0, g: 0.8584906, b: 0.7997339, a: 0}
-    - _EdgeColor: {r: 1.8344327, g: 3.4415908, b: 2.7048042, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &5762204807435534410
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
